@@ -1,0 +1,9 @@
+.h1_title_myNfts{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 6.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

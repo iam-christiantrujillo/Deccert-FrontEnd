@@ -1,0 +1,33 @@
+[
+       {
+        "name":"Inisght Academy",
+        "description":"The first digital academy to use nfts as certificates. His educational focus is 100% on Bitcoin",
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/Captura%20de%20Pantalla%202022-03-05%20a%20la(s)%2010.28.45.png?alt=media&token=6da9463a-b1de-44b4-be8f-d9e11352b8cc",
+        "type":1,
+        "color":["slategrey"],
+        "courses":["Why Bitcoin?","Wallets","Proof of work"],
+        "nfts":320,
+        "reputation":5
+    },
+    {
+        "name":"Tolentinos",
+        "description":"Its educational model is focusing on the programming of web pages and databases",
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/miners_tolentinos_1.png?alt=media&token=6faed847-88de-4131-9359-6bc5593bd63c",
+        "type":2,
+        "color":["crimson"],
+        "courses":["Express on Javascript","Create a web from 0","Python fundamentals"],
+        "nfts":87,
+        "reputation":4
+    },
+    {
+        "name":"Satoshi Academy",
+        "description":"History of money and digital assets. All its educational plan in monetary history and the social reasons that gave birth to bitcoin",
+        "color":["darkorange"],
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/bitcoin_gold.png?alt=media&token=bbceb6b3-bc12-4669-bbd9-518f1491bbb0","type":2
+        ,"courses":["Gold as money","Central bank system","Nixon","Bitcoin paper"],
+        "nfts":90,
+        "reputation":3
+
+    }
+    
+]

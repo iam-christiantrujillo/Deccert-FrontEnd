@@ -1,0 +1,66 @@
+.div_container_singleNFT:hover .name_certificado{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.name_certificado{
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 20;
+    position: absolute;
+
+
+}
+
+.p_fecha{
+    font-size: 2.6rem;
+    display: block;
+    width: fit-content;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+.numero_bloque_nft{
+    position: relative;
+    top: 0;
+    font-weight: bolder;
+    left: 0;
+    width: 30%;
+    
+}
+
+
+.numero_bloque_nft:hover .block_number_text{
+    opacity: 1;
+    font-size: 0.7rem;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 33px;
+}
+
+
+.block_number_text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    font-size: 0.4rem;
+}
+
+.p_nombre_nft{
+    font-size: 1.2rem;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}

@@ -1,0 +1,49 @@
+.div_central{
+    border-radius: 5%;
+    padding: 1% 0%;
+    width: 30%;
+	margin-left: 1%;
+	margin-top: 1%;
+	height: 25vh;
+	vertical-align: top;
+	display: inline-flex;
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-size: 200% 200%;
+	position: relative;
+	overflow: hidden;
+	padding: 16px;
+    border: 1px dashed green;
+}
+
+.img_singleCertificado_fondo{
+	position: absolute;
+	opacity: 0.4;
+	width: 100%;
+	height: auto;
+	left: 0;
+	top: 0;
+}
+
+.border {
+	font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 1rem;
+}
+
+
+.h1_titulo_certificado{
+    display: block;
+    font-size: 2.5rem;
+	text-align: center;
+	z-index: 1;
+    margin: auto;
+}
+
+.p_certificado{
+	position: absolute;
+	top: auto;
+}

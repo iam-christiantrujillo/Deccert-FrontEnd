@@ -1,0 +1,16 @@
+  const botonCool = useRef()
+
+  useEffect(() => {
+    botonCool.current.innerText='Aaron Boton'
+    botonCool.current.style.background='blue'
+
+
+    botonCool.current.addEventListener('click', ()=>{
+      console.log('dhsadhjasvjh')
+    });
+  }, [])
+
+
+          <button 
+        ref={botonCool}
+        >SDab</button>

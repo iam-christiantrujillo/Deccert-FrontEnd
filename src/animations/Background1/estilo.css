@@ -1,0 +1,1434 @@
+#box_world {
+        -webkit-animation: rotate 30000ms linear infinite;
+        animation: rotate 30000ms linear infinite;
+        transform-style: preserve-3d;
+  }
+  #box_world .box_wrapper {
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  #box_world .box_wrapper .box_wall {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 8px solid;
+    box-sizing: border-box;
+    z-index: -1;
+  }
+  #box_world .box_wrapper .box_wall:nth-child(1) {
+    transform: translate(-75px, -75px) translateZ(75px);
+  }
+  #box_world .box_wrapper .box_wall:nth-child(2) {
+    transform: translate(-75px, -75px) translateZ(-75px);
+  }
+  #box_world .box_wrapper .box_wall:nth-child(3) {
+    transform: translate(-75px, -75px) translateX(75px) rotateY(90deg);
+  }
+  #box_world .box_wrapper .box_wall:nth-child(4) {
+    transform: translate(-75px, -75px) translateX(-75px) rotateY(90deg);
+  }
+  #box_world .box_wrapper .box_wall:nth-child(5) {
+    transform: translate(-75px, -75px) translateY(-75px) rotateX(90deg);
+  }
+  #box_world .box_wrapper .box_wall:nth-child(6) {
+    transform: translate(-75px, -75px) translateY(75px) rotateX(90deg);
+  }
+  #box_world .box_wrapper:nth-child(1) {
+    transform: translate3d(-151px, -151px, -151px);
+  }
+  #box_world .box_wrapper:nth-child(2) {
+    transform: translate3d(0, -151px, -151px);
+  }
+  #box_world .box_wrapper:nth-child(3) {
+    transform: translate3d(151px, -151px, -151px);
+  }
+  #box_world .box_wrapper:nth-child(4) {
+    transform: translate3d(-151px, -151px, 0);
+  }
+  #box_world .box_wrapper:nth-child(5) {
+    transform: translate3d(0, -151px, 0);
+  }
+  #box_world .box_wrapper:nth-child(6) {
+    transform: translate3d(151px, -151px, 0);
+  }
+  #box_world .box_wrapper:nth-child(7) {
+    transform: translate3d(-151px, -151px, 151px);
+  }
+  #box_world .box_wrapper:nth-child(8) {
+    transform: translate3d(0, -151px, 151px);
+  }
+  #box_world .box_wrapper:nth-child(9) {
+    transform: translate3d(151px, -151px, 151px);
+  }
+  #box_world .box_wrapper:nth-child(10) {
+    transform: translate3d(-151px, 0, -151px);
+  }
+  #box_world .box_wrapper:nth-child(11) {
+    transform: translate3d(0, 0, -151px);
+  }
+  #box_world .box_wrapper:nth-child(12) {
+    transform: translate3d(151px, 0, -151px);
+  }
+  #box_world .box_wrapper:nth-child(13) {
+    transform: translate3d(-151px, 0, 0);
+  }
+  #box_world .box_wrapper:nth-child(14) {
+    transform: translate3d(0, 0, 0);
+  }
+  #box_world .box_wrapper:nth-child(15) {
+    transform: translate3d(151px, 0, 0);
+  }
+  #box_world .box_wrapper:nth-child(16) {
+    transform: translate3d(-151px, 0, 151px);
+  }
+  #box_world .box_wrapper:nth-child(17) {
+    transform: translate3d(0, 0, 151px);
+  }
+  #box_world .box_wrapper:nth-child(18) {
+    transform: translate3d(151px, 0, 151px);
+  }
+  #box_world .box_wrapper:nth-child(19) {
+    transform: translate3d(-151px, 151px, -151px);
+  }
+  #box_world .box_wrapper:nth-child(20) {
+    transform: translate3d(0, 151px, -151px);
+  }
+  #box_world .box_wrapper:nth-child(21) {
+    transform: translate3d(151px, 151px, -151px);
+  }
+  #box_world .box_wrapper:nth-child(22) {
+    transform: translate3d(-151px, 151px, 0);
+  }
+  #box_world .box_wrapper:nth-child(23) {
+    transform: translate3d(0, 151px, 0);
+  }
+  #box_world .box_wrapper:nth-child(24) {
+    transform: translate3d(151px, 151px, 0);
+  }
+  #box_world .box_wrapper:nth-child(25) {
+    transform: translate3d(-151px, 151px, 151px);
+  }
+  #box_world .box_wrapper:nth-child(26) {
+    transform: translate3d(0, 151px, 151px);
+  }
+  #box_world .box_wrapper:nth-child(27) {
+    transform: translate3d(151px, 151px, 151px);
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2030ms 553ms linear infinite;
+            animation: borderColor 2030ms 553ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1374ms 7454ms linear infinite;
+            animation: borderColor 1374ms 7454ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1209ms 5915ms linear infinite;
+            animation: borderColor 1209ms 5915ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1496ms 7406ms linear infinite;
+            animation: borderColor 1496ms 7406ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2959ms 5065ms linear infinite;
+            animation: borderColor 2959ms 5065ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1822ms 3216ms linear infinite;
+            animation: borderColor 1822ms 3216ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(1) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1457ms 6892ms linear infinite;
+            animation: borderColor 1457ms 6892ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2519ms 5856ms linear infinite;
+            animation: borderColor 2519ms 5856ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2818ms 8654ms linear infinite;
+            animation: borderColor 2818ms 8654ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1386ms 5303ms linear infinite;
+            animation: borderColor 1386ms 5303ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2025ms 8087ms linear infinite;
+            animation: borderColor 2025ms 8087ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3611ms 9753ms linear infinite;
+            animation: borderColor 3611ms 9753ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 3667ms 1169ms linear infinite;
+            animation: borderColor 3667ms 1169ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(2) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3944ms 5848ms linear infinite;
+            animation: borderColor 3944ms 5848ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3382ms 6102ms linear infinite;
+            animation: borderColor 3382ms 6102ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1816ms 6872ms linear infinite;
+            animation: borderColor 1816ms 6872ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3091ms 9635ms linear infinite;
+            animation: borderColor 3091ms 9635ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3005ms 2054ms linear infinite;
+            animation: borderColor 3005ms 2054ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3654ms 4612ms linear infinite;
+            animation: borderColor 3654ms 4612ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1607ms 7232ms linear infinite;
+            animation: borderColor 1607ms 7232ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(3) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3845ms 2159ms linear infinite;
+            animation: borderColor 3845ms 2159ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 1023ms 3428ms linear infinite;
+            animation: borderColor 1023ms 3428ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2101ms 6468ms linear infinite;
+            animation: borderColor 2101ms 6468ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1411ms 974ms linear infinite;
+            animation: borderColor 1411ms 974ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1503ms 270ms linear infinite;
+            animation: borderColor 1503ms 270ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1318ms 6036ms linear infinite;
+            animation: borderColor 1318ms 6036ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1004ms 194ms linear infinite;
+            animation: borderColor 1004ms 194ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(4) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3990ms 6726ms linear infinite;
+            animation: borderColor 3990ms 6726ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2411ms 3330ms linear infinite;
+            animation: borderColor 2411ms 3330ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1902ms 5675ms linear infinite;
+            animation: borderColor 1902ms 5675ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3522ms 3912ms linear infinite;
+            animation: borderColor 3522ms 3912ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2865ms 5154ms linear infinite;
+            animation: borderColor 2865ms 5154ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1806ms 4831ms linear infinite;
+            animation: borderColor 1806ms 4831ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2033ms 1282ms linear infinite;
+            animation: borderColor 2033ms 1282ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(5) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1868ms 2337ms linear infinite;
+            animation: borderColor 1868ms 2337ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2585ms 6993ms linear infinite;
+            animation: borderColor 2585ms 6993ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1430ms 6510ms linear infinite;
+            animation: borderColor 1430ms 6510ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2326ms 8572ms linear infinite;
+            animation: borderColor 2326ms 8572ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3887ms 1641ms linear infinite;
+            animation: borderColor 3887ms 1641ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1574ms 6932ms linear infinite;
+            animation: borderColor 1574ms 6932ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2221ms 2782ms linear infinite;
+            animation: borderColor 2221ms 2782ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(6) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3863ms 2652ms linear infinite;
+            animation: borderColor 3863ms 2652ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2353ms 8931ms linear infinite;
+            animation: borderColor 2353ms 8931ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3800ms 2396ms linear infinite;
+            animation: borderColor 3800ms 2396ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2212ms 5643ms linear infinite;
+            animation: borderColor 2212ms 5643ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3887ms 4510ms linear infinite;
+            animation: borderColor 3887ms 4510ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3883ms 6488ms linear infinite;
+            animation: borderColor 3883ms 6488ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2649ms 9759ms linear infinite;
+            animation: borderColor 2649ms 9759ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(7) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1750ms 3580ms linear infinite;
+            animation: borderColor 1750ms 3580ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2129ms 7328ms linear infinite;
+            animation: borderColor 2129ms 7328ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1564ms 6027ms linear infinite;
+            animation: borderColor 1564ms 6027ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3483ms 5091ms linear infinite;
+            animation: borderColor 3483ms 5091ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3715ms 8436ms linear infinite;
+            animation: borderColor 3715ms 8436ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1200ms 1462ms linear infinite;
+            animation: borderColor 1200ms 1462ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2125ms 6354ms linear infinite;
+            animation: borderColor 2125ms 6354ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(8) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 2009ms 9529ms linear infinite;
+            animation: borderColor 2009ms 9529ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3133ms 6358ms linear infinite;
+            animation: borderColor 3133ms 6358ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2238ms 5584ms linear infinite;
+            animation: borderColor 2238ms 5584ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1178ms 46ms linear infinite;
+            animation: borderColor 1178ms 46ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3641ms 8987ms linear infinite;
+            animation: borderColor 3641ms 8987ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3175ms 4743ms linear infinite;
+            animation: borderColor 3175ms 4743ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 3338ms 8051ms linear infinite;
+            animation: borderColor 3338ms 8051ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(9) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3569ms 9550ms linear infinite;
+            animation: borderColor 3569ms 9550ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3923ms 5730ms linear infinite;
+            animation: borderColor 3923ms 5730ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2583ms 1950ms linear infinite;
+            animation: borderColor 2583ms 1950ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3742ms 6597ms linear infinite;
+            animation: borderColor 3742ms 6597ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2767ms 6192ms linear infinite;
+            animation: borderColor 2767ms 6192ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3942ms 7236ms linear infinite;
+            animation: borderColor 3942ms 7236ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2026ms 379ms linear infinite;
+            animation: borderColor 2026ms 379ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(10) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1275ms 7226ms linear infinite;
+            animation: borderColor 1275ms 7226ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2243ms 56ms linear infinite;
+            animation: borderColor 2243ms 56ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2419ms 2289ms linear infinite;
+            animation: borderColor 2419ms 2289ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2496ms 9712ms linear infinite;
+            animation: borderColor 2496ms 9712ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2413ms 3502ms linear infinite;
+            animation: borderColor 2413ms 3502ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3560ms 8187ms linear infinite;
+            animation: borderColor 3560ms 8187ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2169ms 7136ms linear infinite;
+            animation: borderColor 2169ms 7136ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(11) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1081ms 3276ms linear infinite;
+            animation: borderColor 1081ms 3276ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 1723ms 4743ms linear infinite;
+            animation: borderColor 1723ms 4743ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2696ms 542ms linear infinite;
+            animation: borderColor 2696ms 542ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2654ms 1433ms linear infinite;
+            animation: borderColor 2654ms 1433ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1369ms 2766ms linear infinite;
+            animation: borderColor 1369ms 2766ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1954ms 2694ms linear infinite;
+            animation: borderColor 1954ms 2694ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2194ms 8574ms linear infinite;
+            animation: borderColor 2194ms 8574ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(12) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1711ms 4183ms linear infinite;
+            animation: borderColor 1711ms 4183ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3398ms 8187ms linear infinite;
+            animation: borderColor 3398ms 8187ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1366ms 8902ms linear infinite;
+            animation: borderColor 1366ms 8902ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3149ms 9459ms linear infinite;
+            animation: borderColor 3149ms 9459ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2033ms 5137ms linear infinite;
+            animation: borderColor 2033ms 5137ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1410ms 6625ms linear infinite;
+            animation: borderColor 1410ms 6625ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2662ms 3733ms linear infinite;
+            animation: borderColor 2662ms 3733ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(13) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1651ms 9436ms linear infinite;
+            animation: borderColor 1651ms 9436ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3558ms 786ms linear infinite;
+            animation: borderColor 3558ms 786ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2974ms 8010ms linear infinite;
+            animation: borderColor 2974ms 8010ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3110ms 1150ms linear infinite;
+            animation: borderColor 3110ms 1150ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3426ms 976ms linear infinite;
+            animation: borderColor 3426ms 976ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1654ms 2099ms linear infinite;
+            animation: borderColor 1654ms 2099ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 3032ms 2053ms linear infinite;
+            animation: borderColor 3032ms 2053ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(14) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 2502ms 1310ms linear infinite;
+            animation: borderColor 2502ms 1310ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2266ms 8146ms linear infinite;
+            animation: borderColor 2266ms 8146ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2459ms 2740ms linear infinite;
+            animation: borderColor 2459ms 2740ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3585ms 4650ms linear infinite;
+            animation: borderColor 3585ms 4650ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3951ms 6796ms linear infinite;
+            animation: borderColor 3951ms 6796ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2354ms 6983ms linear infinite;
+            animation: borderColor 2354ms 6983ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 3054ms 7218ms linear infinite;
+            animation: borderColor 3054ms 7218ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(15) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 2115ms 6304ms linear infinite;
+            animation: borderColor 2115ms 6304ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 1920ms 4464ms linear infinite;
+            animation: borderColor 1920ms 4464ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1463ms 3970ms linear infinite;
+            animation: borderColor 1463ms 3970ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1700ms 2889ms linear infinite;
+            animation: borderColor 1700ms 2889ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1912ms 4720ms linear infinite;
+            animation: borderColor 1912ms 4720ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3564ms 9077ms linear infinite;
+            animation: borderColor 3564ms 9077ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 3781ms 6967ms linear infinite;
+            animation: borderColor 3781ms 6967ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(16) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1139ms 3614ms linear infinite;
+            animation: borderColor 1139ms 3614ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3342ms 5013ms linear infinite;
+            animation: borderColor 3342ms 5013ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 1728ms 8517ms linear infinite;
+            animation: borderColor 1728ms 8517ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1820ms 3640ms linear infinite;
+            animation: borderColor 1820ms 3640ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2896ms 9436ms linear infinite;
+            animation: borderColor 2896ms 9436ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1269ms 4975ms linear infinite;
+            animation: borderColor 1269ms 4975ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 3715ms 7944ms linear infinite;
+            animation: borderColor 3715ms 7944ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(17) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3426ms 987ms linear infinite;
+            animation: borderColor 3426ms 987ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3827ms 8336ms linear infinite;
+            animation: borderColor 3827ms 8336ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3982ms 5366ms linear infinite;
+            animation: borderColor 3982ms 5366ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1063ms 3555ms linear infinite;
+            animation: borderColor 1063ms 3555ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1157ms 3231ms linear infinite;
+            animation: borderColor 1157ms 3231ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2751ms 9325ms linear infinite;
+            animation: borderColor 2751ms 9325ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1621ms 6381ms linear infinite;
+            animation: borderColor 1621ms 6381ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(18) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 2560ms 5452ms linear infinite;
+            animation: borderColor 2560ms 5452ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2192ms 1324ms linear infinite;
+            animation: borderColor 2192ms 1324ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2790ms 4236ms linear infinite;
+            animation: borderColor 2790ms 4236ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3914ms 8011ms linear infinite;
+            animation: borderColor 3914ms 8011ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1421ms 7319ms linear infinite;
+            animation: borderColor 1421ms 7319ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3540ms 5791ms linear infinite;
+            animation: borderColor 3540ms 5791ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1660ms 6266ms linear infinite;
+            animation: borderColor 1660ms 6266ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(19) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1071ms 9104ms linear infinite;
+            animation: borderColor 1071ms 9104ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 1774ms 4980ms linear infinite;
+            animation: borderColor 1774ms 4980ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2393ms 6081ms linear infinite;
+            animation: borderColor 2393ms 6081ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2332ms 9879ms linear infinite;
+            animation: borderColor 2332ms 9879ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3777ms 1966ms linear infinite;
+            animation: borderColor 3777ms 1966ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1410ms 9826ms linear infinite;
+            animation: borderColor 1410ms 9826ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1959ms 5010ms linear infinite;
+            animation: borderColor 1959ms 5010ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(20) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1200ms 3543ms linear infinite;
+            animation: borderColor 1200ms 3543ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3861ms 8829ms linear infinite;
+            animation: borderColor 3861ms 8829ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3738ms 3051ms linear infinite;
+            animation: borderColor 3738ms 3051ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3186ms 8171ms linear infinite;
+            animation: borderColor 3186ms 8171ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1230ms 9160ms linear infinite;
+            animation: borderColor 1230ms 9160ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2947ms 7499ms linear infinite;
+            animation: borderColor 2947ms 7499ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1033ms 9924ms linear infinite;
+            animation: borderColor 1033ms 9924ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(21) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3594ms 3634ms linear infinite;
+            animation: borderColor 3594ms 3634ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3623ms 1494ms linear infinite;
+            animation: borderColor 3623ms 1494ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3790ms 174ms linear infinite;
+            animation: borderColor 3790ms 174ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3138ms 5357ms linear infinite;
+            animation: borderColor 3138ms 5357ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2561ms 7648ms linear infinite;
+            animation: borderColor 2561ms 7648ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2588ms 7233ms linear infinite;
+            animation: borderColor 2588ms 7233ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2497ms 4206ms linear infinite;
+            animation: borderColor 2497ms 4206ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(22) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1686ms 9263ms linear infinite;
+            animation: borderColor 1686ms 9263ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 1173ms 3425ms linear infinite;
+            animation: borderColor 1173ms 3425ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3468ms 3744ms linear infinite;
+            animation: borderColor 3468ms 3744ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2403ms 7771ms linear infinite;
+            animation: borderColor 2403ms 7771ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1947ms 5343ms linear infinite;
+            animation: borderColor 1947ms 5343ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2057ms 4937ms linear infinite;
+            animation: borderColor 2057ms 4937ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1047ms 495ms linear infinite;
+            animation: borderColor 1047ms 495ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(23) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3287ms 5442ms linear infinite;
+            animation: borderColor 3287ms 5442ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2542ms 5312ms linear infinite;
+            animation: borderColor 2542ms 5312ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3624ms 2186ms linear infinite;
+            animation: borderColor 3624ms 2186ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3544ms 3322ms linear infinite;
+            animation: borderColor 3544ms 3322ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 1114ms 2692ms linear infinite;
+            animation: borderColor 1114ms 2692ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3862ms 8062ms linear infinite;
+            animation: borderColor 3862ms 8062ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 2409ms 6982ms linear infinite;
+            animation: borderColor 2409ms 6982ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(24) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 2467ms 8369ms linear infinite;
+            animation: borderColor 2467ms 8369ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2208ms 2414ms linear infinite;
+            animation: borderColor 2208ms 2414ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3099ms 2812ms linear infinite;
+            animation: borderColor 3099ms 2812ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2351ms 9791ms linear infinite;
+            animation: borderColor 2351ms 9791ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2887ms 6579ms linear infinite;
+            animation: borderColor 2887ms 6579ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 1301ms 1452ms linear infinite;
+            animation: borderColor 1301ms 1452ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1018ms 1398ms linear infinite;
+            animation: borderColor 1018ms 1398ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(25) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 1456ms 8499ms linear infinite;
+            animation: borderColor 1456ms 8499ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3849ms 2433ms linear infinite;
+            animation: borderColor 3849ms 2433ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3760ms 4480ms linear infinite;
+            animation: borderColor 3760ms 4480ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 2203ms 9504ms linear infinite;
+            animation: borderColor 2203ms 9504ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 3562ms 4111ms linear infinite;
+            animation: borderColor 3562ms 4111ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 2644ms 8413ms linear infinite;
+            animation: borderColor 2644ms 8413ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1977ms 9411ms linear infinite;
+            animation: borderColor 1977ms 9411ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(26) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3382ms 9089ms linear infinite;
+            animation: borderColor 3382ms 9089ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 2371ms 1826ms linear infinite;
+            animation: borderColor 2371ms 1826ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 2677ms 8794ms linear infinite;
+            animation: borderColor 2677ms 8794ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 1352ms 6792ms linear infinite;
+            animation: borderColor 1352ms 6792ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2702ms 7360ms linear infinite;
+            animation: borderColor 2702ms 7360ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3851ms 1035ms linear infinite;
+            animation: borderColor 3851ms 1035ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1455ms 850ms linear infinite;
+            animation: borderColor 1455ms 850ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(27) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3266ms 5960ms linear infinite;
+            animation: borderColor 3266ms 5960ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(1) {
+    -webkit-animation: borderColor 3093ms 402ms linear infinite;
+            animation: borderColor 3093ms 402ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(2) {
+    -webkit-animation: borderColor 3116ms 3030ms linear infinite;
+            animation: borderColor 3116ms 3030ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(3) {
+    -webkit-animation: borderColor 3260ms 2552ms linear infinite;
+            animation: borderColor 3260ms 2552ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(4) {
+    -webkit-animation: borderColor 2921ms 8135ms linear infinite;
+            animation: borderColor 2921ms 8135ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(5) {
+    -webkit-animation: borderColor 3265ms 8728ms linear infinite;
+            animation: borderColor 3265ms 8728ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(6) {
+    -webkit-animation: borderColor 1001ms 4650ms linear infinite;
+            animation: borderColor 1001ms 4650ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #box_world .box_wrapper:nth-child(28) .box_wall:nth-child(7) {
+    -webkit-animation: borderColor 3061ms 4926ms linear infinite;
+            animation: borderColor 3061ms 4926ms linear infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes rotate {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(1080deg);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(1080deg);
+    }
+  }
+  @-webkit-keyframes borderColor {
+    0% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    60% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    65% {
+      border-top-color: rgba(0, 0, 255, 0.8);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    70% {
+      border-top-color: rgba(0, 0, 255, 0.8);
+      border-right-color: rgba(0, 0, 255, 0.8);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    75% {
+      border-top-color: rgba(0, 0, 255, 0.8);
+      border-right-color: rgba(0, 0, 255, 0.8);
+      border-bottom-color: rgba(0, 0, 255, 0.8);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    80% {
+      border-top-color: rgba(0, 255, 255, 0.8);
+      border-right-color: rgba(0, 255, 255, 0.8);
+      border-bottom-color: rgba(0, 255, 255, 0.8);
+      border-left-color: rgba(0, 255, 255, 0.8);
+    }
+    85% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0.8);
+      border-bottom-color: rgba(0, 0, 255, 0.8);
+      border-left-color: rgba(0, 0, 255, 0.8);
+    }
+    90% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0.8);
+      border-left-color: rgba(0, 0, 255, 0.8);
+    }
+    95% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0.8);
+    }
+    100% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+  }
+  @keyframes borderColor {
+    0% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    60% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    65% {
+      border-top-color: rgba(0, 0, 255, 0.8);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    70% {
+      border-top-color: rgba(0, 0, 255, 0.8);
+      border-right-color: rgba(0, 0, 255, 0.8);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    75% {
+      border-top-color: rgba(0, 0, 255, 0.8);
+      border-right-color: rgba(0, 0, 255, 0.8);
+      border-bottom-color: rgba(0, 0, 255, 0.8);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+    80% {
+      border-top-color: rgba(0, 255, 255, 0.8);
+      border-right-color: rgba(0, 255, 255, 0.8);
+      border-bottom-color: rgba(0, 255, 255, 0.8);
+      border-left-color: rgba(0, 255, 255, 0.8);
+    }
+    85% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0.8);
+      border-bottom-color: rgba(0, 0, 255, 0.8);
+      border-left-color: rgba(0, 0, 255, 0.8);
+    }
+    90% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0.8);
+      border-left-color: rgba(0, 0, 255, 0.8);
+    }
+    95% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0.8);
+    }
+    100% {
+      border-top-color: rgba(0, 0, 255, 0);
+      border-right-color: rgba(0, 0, 255, 0);
+      border-bottom-color: rgba(0, 0, 255, 0);
+      border-left-color: rgba(0, 0, 255, 0);
+    }
+  }

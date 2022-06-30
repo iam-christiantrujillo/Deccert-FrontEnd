@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.div_main_welcome{
+    display: block;
+    margin: auto;
+    color: black;
+    overflow: scroll;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+
+.div_header_welcome{
+    /* background-image: url('../image/cabecera_1.jpeg'); */
+    width: 100%;
+    font-weight: 900;
+    color: white;
+    background-position: center;
+
+}
+.imagen_fondo_welcome{
+    position: fixed;
+    opacity: 0.7;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.p_texto_principal{
+    width: 60%;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 5.5rem;
+}
+
+
+
+.boton_empezar{
+    background: linear-gradient(-45deg,hotpink,navy);
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0.5% 1%;
+    border-radius: 1%;
+    transition: all 0.5s ease-in-out;
+}
+
+.boton_empezar:hover{
+    transition: all 1s ease-in-out;
+    color: silver;
+    padding: 1%;
+    border-radius: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+.div_part_welcome{
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    height: 20vh;
+    width: 21%;
+    margin: 1%;
+    border-radius: 3%;
+    vertical-align: top;
+    border: 1px solid goldenrod;
+    color: black;
+    background: radial-gradient(white,snow);
+    outline: none;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.div_part_welcome:hover{
+    transition: all 0.5s ease-in-out;
+    background: radial-gradient(black,skyblue);
+    padding: 0.5%;
+    color: whitesmoke;
+    border: 2px solid blueviolet;
+    
+
+}
+
+@media (max-width: 500px) {
+    .div_part_welcome{
+    width: 95%;
+    display: block;
+    
+    }
+
+    .p_texto_principal{
+        width: 95%;
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+}

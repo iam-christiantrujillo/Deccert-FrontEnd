@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.div_menu{
+    z-index: 3;
+    display: flex;
+    width: 100%;
+    align-items:flex-start;
+    font-family: 'Montserrat', sans-serif;
+    background: red;
+    
+    /* background: linear-gradient(rgb(78, 77, 77),rgb(41, 41, 41)); */
+}
+
+.nav_menu{
+    display: flex;
+}
+
+.div_menu p{
+    margin-left: 4%;
+    font-size: 1.7rem;
+    font-family: monospace;
+    transition: all 0.5s ease-in-out;
+}
+
+.div_menu p:hover{
+    color: silver;
+    font-size: 1.8rem;
+    transition: all 0.5s ease-in-out;
+}

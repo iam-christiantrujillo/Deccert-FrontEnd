@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.div_container_mint{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.p_mint_name_of_the_user{
+    font-size: 2rem;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    font-family: monospace;
+    margin-top: 5%;
+    /* transition:opacity 0.4s ease; */
+    /* transition:opacity 0.3s ease, transform 0.4s ease-in-out; */
+    animation: apper 1s ease-in-out;
+}
+
+@keyframes apper {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

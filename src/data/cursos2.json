@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Bitcoin Fundamentals I",
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/Bitcoin_logo_2.jpg?alt=media&token=265d1225-e464-40e0-925a-c3aac1bbacd3","type":1
+    },
+    {
+        "name":"Bitcoin Fundamentals II",
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/bitcoin_gold.png?alt=media&token=bbceb6b3-bc12-4669-bbd9-518f1491bbb0",
+        "type":2
+    },
+    {
+        "name":"Bitcoin Fundamentals III",
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/Tolen_1.png?alt=media&token=45abe768-f46f-4c59-9b8d-8a08820b8da1", "type":3
+    },
+    {
+        "name":"Programando Bitcoin I",
+        "image":"https://firebasestorage.googleapis.com/v0/b/deccert-1bc30.appspot.com/o/Aetherius_1.jpeg?alt=media&token=fa0e177b-9af6-4722-9626-760bdca44fa0","type":2
+    }
+]
