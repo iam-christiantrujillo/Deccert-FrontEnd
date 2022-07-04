@@ -1,46 +1,46 @@
-import React, { useEffect, useState,useContext } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import Boton from '../Boton/Boton'
 import Logo from '../image/logo_deccert.png'
-import {langContext}from '../../context/langContext'
+import { langContext } from '../../context/langContext'
 import './estilo.css'
 import Banderas from '../Banderas/Banderas'
 import {
   NavLink
 } from "react-router-dom";
 import styled from 'styled-components'
-import { animateScroll as scroll, Link as ScrollLink} from 'react-scroll'
+import { animateScroll as scroll, Link as ScrollLink } from 'react-scroll'
 
 
-function Menu({setEstado}) {
+function Menu({ setEstado }) {
 
-  const idioma=useContext(langContext)
-  console.log('idioma: ',idioma)
+  const idioma = useContext(langContext)
+  console.log('idioma: ', idioma)
   const [visible, setVisible] = useState(false)
 
-  useEffect(async() => {
-    let _res=await Check()
+  useEffect(async () => {
+    let _res = await Check()
     setVisible(_res)
 
   }, [])
-  
 
-  const Check=async()=>{
-    var resFinal=true
+
+  const Check = async () => {
+    var resFinal = true
 
     if (window.ethereum !== 'undefined') {
-        await window.ethereum
-       .request({ method: 'eth_accounts' })
-       .then(accounts=>{
-         if (accounts.length === 0) {
-           resFinal=false            
-         }
+      await window.ethereum
+        .request({ method: 'eth_accounts' })
+        .then(accounts => {
+          if (accounts.length === 0) {
+            resFinal = false
+          }
 
-       })
-      }
+        })
+    }
     return resFinal
-}
+  }
 
- const NavLinkStlyed=styled(NavLink)`
+  const NavLinkStlyed = styled(NavLink)`
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
     text-decoration: none;
@@ -67,72 +67,72 @@ function Menu({setEstado}) {
 `
 
   return (
-    
-    <div 
-    className='div_menu'>
-        <nav className='nav_menu'>
+
+    <div
+      className='div_menu'>
+      <nav className='nav_menu'>
 
         <NavLinkStlyed
-        style={{marginLeft:'2%'}}
-        to='/mint'>
-        <img 
-        width='7%' 
-        src={Logo}></img>
+          style={{ marginLeft: '2%' }}
+          to='/mint'>
+          <img
+            width='7%'
+            src={Logo}></img>
         </NavLinkStlyed>
 
         <NavLinkStlyed
-        to='/'>
-              HOME
-        </NavLinkStlyed>  
+          to='/'>
+          HOME
+        </NavLinkStlyed>
 
         <NavLinkStlyed
-        to='/'>
-        <ScrollLink
+          to='/'>
+          <ScrollLink
             activeClass="active"
             to="seccion_cursos"
             spy={true}
             smooth={true}
             offset={-65}
             duration={1000}>
-              
+
             CURSES
           </ScrollLink>
-        </NavLinkStlyed>  
+        </NavLinkStlyed>
 
         <NavLinkStlyed
-        to='/'>
-        <ScrollLink
+          to='/'>
+          <ScrollLink
             activeClass="active"
             to="nfts_id"
             spy={true}
             smooth={true}
             offset={-65}
             duration={1000}>
-              
+
             CLASSES
           </ScrollLink>
-        </NavLinkStlyed>  
+        </NavLinkStlyed>
 
 
         <NavLinkStlyed to='/nft'>
-              NFTS
+          NFTS
         </NavLinkStlyed>
 
-       
-     
 
-       <Banderas idioma={idioma}/>
 
-       </nav>
-       {!visible&&
-        <Boton 
-        padding2='0.6%'
-        text_id='connect_wallet'
-        color1='navy' color2='hotpink'
-        text='Connect Wallet' onClick={async()=>await window.ethereum.request({ method: 'eth_requestAccounts' })}/>}
-     
+
+        <Banderas idioma={idioma} />
+
+      </nav>
+      {!visible &&
+        <Boton
+          padding2='0.6%'
+          text_id='connect_wallet'
+          color1='navy' color2='hotpink'
+          text='Connect Wallet' onClick={async () => await window.ethereum.request({ method: 'eth_requestAccounts' })} />}
+
     </div>
-    
+
   )
 }
 

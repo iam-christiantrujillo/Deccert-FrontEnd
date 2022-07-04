@@ -1,0 +1,11 @@
+.nfts-group{
+    margin: 0 6rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.group-cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

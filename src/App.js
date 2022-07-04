@@ -6,6 +6,7 @@ import {BrowserRouter,Routes,Route,useLocation} from "react-router-dom";
 import MyNFT from './pages/MyNFT/MyNFT';
 import Mint from './pages/Mint/Mint';
 import {AnimatePresence} from 'framer-motion/dist/framer-motion'
+import Profile from './pages/Profile/Profile';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route exact path='/nft' element={<MyNFT/>}></Route>
         <Route exact path='/mint' element={<Mint/>}></Route>
         <Route exact path='/' element={<Welcome/>}></Route>
+        <Route exact path='/profile' element={<Profile/>}></Route>
 
 
       </Routes>

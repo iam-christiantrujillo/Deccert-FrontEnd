@@ -1,0 +1,24 @@
+.profile-info-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+    padding: 3rem 4rem;
+    margin: 0 6rem;
+}
+
+.button-link{
+    text-decoration: none;
+}
+
+.account-info{
+    display: flex;
+}
+
+.account-description{
+    padding: 0 3rem;
+}
+
+.account-about-text{
+    width: 70%;
+}
